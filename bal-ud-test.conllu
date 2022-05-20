@@ -8,9 +8,9 @@
 1	مرگ	مرگ	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	چونیں	چو	ADJ	_	Case=Nom	3	amod	_	_
 3	ترسناکیں	ترسناک	NOUN	_	Case=Nom|Number=Plur	8	nmod	_	_
-4	لبزے!چہ	لبزے!چہ	ADJ	_	_	8	amod	_	SpaceAfter=No|SpacesAfter=\s\s
+4	لبزے	لبزے!چہ	ADJ	_	_	8	amod	_	SpaceAfter=No
 5	!	!	PUNCT	_	_	4	punct	_	SpaceAfter=No
-6	لبزے	_	X	_	_	4	dep	_	_
+6	چہ	_	X	_	_	4	dep	_	SpacesAfter=\s\s
 7	آئیءِنامءِگوش	آئیءِنامءِگوش	PROPN	_	Case=Nom|Number=Sing	8	compound	_	_
 8	کپگءَگوں	کپگءَگ	PROPN	_	Case=Nom|Number=Sing	11	nmod	_	_
 9	جانءِپُٹ	جانءِپُٹ	ADJ	_	Case=Nom|Number=Sing	11	amod	_	_
