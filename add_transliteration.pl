@@ -21,7 +21,7 @@ while(<>)
         s/\r?\n$//;
         my @f = split(/\t/);
         my @misc = $f[9] eq '_' ? () : split(/\|/, $f[9]);
-        my $translit = translit::prevest(\%prevod, $f[0]);
+        my $translit = translit::prevest(\%prevod, $f[1]);
         push(@misc, "Translit=$translit");
         $f[9] = join('|', @misc);
         $_ = join("\t", @f)."\n";
