@@ -1,0 +1,283 @@
+# generator = UDPipe 2, https://lindat.mff.cuni.cz/services/udpipe
+# udpipe_model = urdu-udtb-ud-2.6-200830
+# udpipe_model_licence = CC BY-NC-SA
+# newdoc
+# newpar
+# sent_id = 1
+# text = جنک ءَ وتی دزگوہار ءَ را نمدی یے نبشتہ کت ۔
+1	جنک	جنک	PRON	RB	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+2	ءَ	ءَ	PART	RP	_	1	dep	_	_
+3	وتی	وتی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	compound	_	_
+4	دزگوہار	دزگوہار	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+5	ءَ	ءَ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	_
+6	را	را	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	_
+7	نمدی	نمدی	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obl	_	_
+8	یے	یے	ADP	PSP	AdpType=Post	7	case	_	_
+9	نبشتہ	نبشتہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	compound	_	_
+10	کت	کت	VERB	VM	Aspect=Imp|Gender=Fem|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_
+11	۔	۔	PUNCT	SYM	_	10	punct	_	SpacesAfter=\r\n
+
+# sent_id = 2
+# text = منی دل ءَ ہئور بئیگا اِنت ۔
+1	منی	منی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	compound	_	_
+2	دل	دل	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	compound	_	_
+3	ءَ	ءَ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	compound	_	_
+4	ہئور	ہئور	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	compound	_	_
+5	بئیگا	بئیگا	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	compound	_	_
+6	اِنت	اِنت	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+7	۔	۔	PUNCT	SYM	_	6	punct	_	SpacesAfter=\r\n
+
+# sent_id = 3
+# text = آئی ءَ کشّگ ءُ نوشگ ءِ یلہ دئیگ ءِ جُہد کُت ۔
+1	آئی	آئی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	compound	_	_
+2	ءَ	ءَ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	کشّگ	کشّگ	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+4	ءُ	ءُ	NOUN	NNC	_	5	compound	_	_
+5	نوشگ	نوشگ	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+6	ءِ	ءِ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	compound	_	_
+7	یلہ	یلہ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	compound	_	_
+8	دئیگ	دئیگ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	compound	_	_
+9	ءِ	ءِ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	compound	_	_
+10	جُہد	جُہد	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	compound	_	_
+11	کُت	کُت	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+12	۔	۔	PUNCT	SYM	_	11	punct	_	SpacesAfter=\r\n
+
+# sent_id = 4
+# text = تو روگ لوٹ ئے ؟
+1	تو	تو	SCONJ	CC	_	3	mark	_	_
+2	روگ	روگ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+3	لوٹ	لوٹ	VERB	VM	Voice=Act	0	root	_	_
+4	ئے	ئے	AUX	VAUX	Aspect=Perf|VerbForm=Part	3	aux	_	_
+5	؟	؟	PUNCT	SYM	_	3	punct	_	SpacesAfter=\r\n
+
+# sent_id = 5
+# text = سیم ، دریگ ءَ پچ کن!۔
+1	سیم	سیم	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+2	،	،	PUNCT	SYM	_	1	punct	_	_
+3	دریگ	دریگ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+4	ءَ	ءَ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nmod	_	_
+5	پچ	پچ	NOUN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	compound	_	_
+6	کن	کن	VERB	VM	Case=Nom|Number=Sing|Person=3|PronType=Int	0	root	_	SpaceAfter=No
+7	!	!	PUNCT	SYM	_	6	punct	_	SpaceAfter=No
+8	۔	۔	PUNCT	SYM	_	6	punct	_	SpacesAfter=\r\n
+
+# sent_id = 6
+# text = آئی ءَ وتی مرد ءَ را گاڑی ءِ شودگ پرمات ۔
+1	آئی	آئی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	compound	_	_
+2	ءَ	ءَ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+3	وتی	وتی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	compound	_	_
+4	مرد	مرد	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+5	ءَ	ءَ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
+6	را	را	PROPN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	_
+7	گاڑی	گاڑی	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
+8	ءِ	ءِ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	compound	_	_
+9	شودگ	شودگ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+10	پرمات	پرمات	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|Person=3|Polite=Form|VerbForm=Part|Voice=Act	0	root	_	_
+11	۔	۔	PUNCT	SYM	_	10	punct	_	SpacesAfter=\r\n
+
+# sent_id = 7
+# text = پیٹر ءِ ہمساہگ ءَ پل ءَ را سُہریں رنگ جت ۔
+1	پیٹر	پیٹر	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	compound	_	_
+2	ءِ	ءِ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	ہمساہگ	ہمساہگ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
+4	ءَ	ءَ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+5	پل	پل	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+6	ءَ	ءَ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+7	را	را	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	conj	_	_
+8	سُہریں	سُہر	ADJ	JJ	Case=Nom	9	amod	_	_
+9	رنگ	رنگ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+10	جت	جت	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+11	۔	۔	PUNCT	SYM	_	10	punct	_	SpacesAfter=\r\n
+
+# sent_id = 8
+# text = منی پت چہ تئیگ ءَ شرتِر اِنت ۔
+1	منی	منی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	compound	_	_
+2	پت	پت	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	_
+3	چہ	چہ	PROPN	NNPC	_	7	compound	_	_
+4	تئیگ	تئیگ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	_
+5	ءَ	ءَ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	_
+6	شرتِر	شرتِر	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	_
+7	اِنت	اِنت	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+8	۔	۔	PUNCT	SYM	_	7	punct	_	SpacesAfter=\r\n
+
+# sent_id = 9
+# text = میری ءَ برونزے یے ، پیٹر ءَ نُگرہ ءِ ءُ جین ءَ تلاہ ءِ میڈلے کٹ اِت ۔
+1	میری	میں	PRON	PRP	Case=Acc,Gen|Person=1|Poss=Yes|PronType=Prs	2	nmod	_	_
+2	ءَ	ءَ	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
+3	برونزے	برونزہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+4	یے	یے	ADP	PSP	AdpType=Post	3	case	_	_
+5	،	،	PUNCT	SYM	_	3	punct	_	_
+6	پیٹر	پیٹر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
+7	ءَ	ءَ	NOUN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	compound	_	_
+8	نُگرہ	نُگرہ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	conj	_	_
+9	ءِ	ءِ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
+10	ءُ	ءُ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+11	جین	جین	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+12	ءَ	ءَ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nmod	_	_
+13	تلاہ	تلاہ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	compound	_	_
+14	ءِ	ءِ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	میڈلے	میڈلے	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+16	کٹ	کٹ	VERB	VM	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	conj	_	_
+17	اِت	اِت	VERB	VM	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	conj	_	_
+18	۔	۔	PUNCT	SYM	_	17	punct	_	SpacesAfter=\r\n
+
+# sent_id = 10
+# text = اِگوازو مزنیں مُلکے یا کسانیں ؟
+1	اِگوازو	اِگوازو	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	obl	_	_
+2	مزنیں	مزن	NOUN	NN	Case=Nom|Gender=Fem|Number=Plur|Person=3	3	nsubj	_	_
+3	مُلکے	مُل	VERB	VM	Case=Nom|Gender=Masc|Number=Plur|Person=3	0	root	_	_
+4	یا	یا	CCONJ	CC	_	5	cc	_	_
+5	کسانیں	کسان	VERB	VM	Case=Nom|Gender=Fem|Number=Plur|Person=3	3	conj	_	_
+6	؟	؟	PUNCT	SYM	_	5	punct	_	SpacesAfter=\r\n
+
+# sent_id = 11
+# text = نیکہ پیٹر سمتھ ءُ نیکہ میری براؤن زورگ بوت اَنت ۔
+1	نیکہ	نیکہ	PROPN	CC	_	4	amod	_	_
+2	پیٹر	پیٹر	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	compound	_	_
+3	سمتھ	سمتھ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+4	ءُ	ءُ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+5	نیکہ	نیکہ	PROPN	NNPC	_	10	compound	_	_
+6	میری	میری	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	compound	_	_
+7	براؤن	براؤن	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	compound	_	_
+8	زورگ	زورگ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+9	بوت	بوت	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	compound	_	_
+10	اَنت	اَنت	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+11	۔	۔	PUNCT	SYM	_	10	punct	_	SpacesAfter=\r\n
+
+# sent_id = 12
+# text = آ ہچ نہ زان اَنت کہ اے کئیا نبشتہ کُتگ ۔
+1	آ	آ	VERB	INJ	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	ہچ	ہچ	VERB	VM	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+3	نہ	نہ	PART	NEG	Polarity=Neg|PronType=Neg	5	nmod	_	_
+4	زان	زان	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+5	اَنت	اَنت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	2	nmod	_	_
+6	کہ	کہ	SCONJ	CC	_	10	mark	_	_
+7	اے	اے	PART	RP	_	10	nsubj	_	_
+8	کئیا	کئیا	DET	WQ	Case=Nom	9	det	_	_
+9	نبشتہ	نبشتہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+10	کُتگ	کُتگ	VERB	VM	Case=Nom|Number=Sing|Person=3|PronType=Int	5	acl	_	_
+11	۔	۔	PUNCT	SYM	_	10	punct	_	SpacesAfter=\r\n
+
+# sent_id = 13
+# text = تو چے چارگا ئے ؟
+1	تو	تو	SCONJ	CC	_	3	mark	_	_
+2	چے	چے	PRON	WQ	_	3	nsubj	_	_
+3	چارگا	چارگا	VERB	VM	Voice=Act	0	root	_	_
+4	ئے	ئے	AUX	VAUX	Aspect=Perf|VerbForm=Part	3	aux	_	_
+5	؟	؟	PUNCT	SYM	_	3	punct	_	SpacesAfter=\r\n
+
+# sent_id = 14
+# text = تئی ہیال ءَ تو کدی اتک کن ئے ؟
+1	تئی	تئی	ADJ	JJ	_	2	amod	_	_
+2	ہیال	ہیال	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	ءَ	ءَ	NOUN	NN	Case=Acc|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+4	تو	تو	PART	RP	_	3	dep	_	_
+5	کدی	کدی	PRON	WQ	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+6	اتک	اتک	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	xcomp	_	_
+7	کن	کن	VERB	VM	Voice=Act	0	root	_	_
+8	ئے	ئے	AUX	VAUX	Aspect=Perf|VerbForm=Part	7	aux	_	_
+9	؟	؟	PUNCT	SYM	_	7	punct	_	SpacesAfter=\r\n
+
+# sent_id = 15
+# text = آئی ءَ گاڑی یے زُرت بلے آئی برات ءَ بس یک پرپٹے ۔
+1	آئی	آئی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	compound	_	_
+2	ءَ	ءَ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	گاڑی	گاڑی	NOUN	NN	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	obl	_	_
+4	یے	یے	ADP	PSP	AdpType=Post	3	case	_	_
+5	زُرت	زُرت	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	compound	_	_
+6	بلے	بل	PROPN	NNPC	Aspect=Perf|Number=Sing|Person=3|VerbForm=Part|Voice=Act	8	case	_	_
+7	آئی	آئی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	compound	_	_
+8	برات	برات	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
+9	ءَ	ءَ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+10	بس	بس	NOUN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_
+11	یک	یک	NUM	QC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nummod	_	_
+12	پرپٹے	پرپٹہ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+13	۔	۔	PUNCT	SYM	_	12	punct	_	SpacesAfter=\r\n
+
+# sent_id = 16
+# text = پیٹر ءُ میری ءَ یکے دومی ءَ گلائیش کُت ءُ چہ کوٹی ءَ در اتک اَنت ۔
+1	پیٹر	پیٹر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+2	ءُ	ءُ	PART	RP	_	4	dep	_	_
+3	میری	میری	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+4	ءَ	ءَ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+5	یکے	یکے	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	compound	_	_
+6	دومی	دومی	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+7	ءَ	ءَ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nmod	_	_
+8	گلائیش	گلائیش	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	compound	_	_
+9	کُت	کُت	PROPN	NNP	Case=Acc|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+10	ءُ	ءُ	NOUN	RP	_	13	nmod	_	_
+11	چہ	چہ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	compound	_	_
+12	کوٹی	کوٹی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	ءَ	ءَ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+14	در	در	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	compound	_	_
+15	اتک	اتک	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	compound	_	_
+16	اَنت	اَنت	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+17	۔	۔	PUNCT	SYM	_	16	punct	_	SpacesAfter=\r\n
+
+# sent_id = 17
+# text = آ بائدیں وتی سر ءِ رندگ ءَ بوتیں بلے لہتے سوب ءَ آ روچی نہ رست ئِے ۔
+1	آ	آ	NUM	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	بائدیں	بائد	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	9	nsubj	_	_
+3	وتی	وتی	NOUN	NNC	_	4	compound	_	_
+4	سر	سر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+5	ءِ	ءِ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+6	رندگ	رندگ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	conj	_	_
+7	ءَ	ءَ	NOUN	RP	_	6	dep	_	_
+8	بوتیں	بوت	NOUN	NN	Case=Nom|Gender=Masc|Number=Plur|Person=3	9	obj	_	_
+9	بلے	بل	VERB	VM	Aspect=Perf|Gender=Masc|Number=Plur|VerbForm=Part|Voice=Act	0	root	_	_
+10	لہتے	لہ	AUX	VAUX	Aspect=Imp|Gender=Masc|Number=Plur|VerbForm=Part	9	aux	_	_
+11	سوب	سوب	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	obl	_	_
+12	ءَ	ءَ	PART	RP	_	11	dep	_	_
+13	آ	آ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	compound	_	_
+14	روچی	روچی	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	16	obj	_	_
+15	نہ	نہ	PART	NEG	Polarity=Neg|PronType=Neg	16	advmod	_	_
+16	رست	رست	VERB	VM	Voice=Act	9	advcl	_	_
+17	ئِے	جا	AUX	VAUX	Aspect=Perf|Gender=Masc|Number=Plur|Person=3|VerbForm=Part	16	aux	_	_
+18	۔	۔	PUNCT	SYM	_	16	punct	_	SpacesAfter=\r\n
+
+# sent_id = 18
+# text = من آئی ءَ را رسینت نہ کُت ، پرچا کہ آ سک تینز تتک ۔
+1	من	من	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	compound	_	_
+2	آئی	آ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	ءَ	ءَ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+4	را	را	NOUN	JJ	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	compound	_	_
+5	رسینت	رسینت	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nmod	_	_
+6	نہ	نہ	PART	NEG	Polarity=Neg|PronType=Neg	7	advmod	_	_
+7	کُت	کُت	NOUN	NN	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	obj	_	_
+8	،	،	PUNCT	SYM	_	7	punct	_	_
+9	پرچا	پرچ	VERB	VM	Aspect=Perf|Gender=Masc|Number=Sing|VerbForm=Part|Voice=Act	0	root	_	_
+10	کہ	کہ	SCONJ	CC	_	13	mark	_	_
+11	آ	آ	NOUN	NN	_	13	nmod	_	_
+12	سک	سک	ADP	PSP	_	11	dep	_	_
+13	تینز	تینز	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	obj	_	_
+14	تتک	تتک	AUX	JJ	_	13	amod	_	_
+15	۔	۔	PUNCT	SYM	_	13	punct	_	SpacesAfter=\r\n
+
+# sent_id = 19
+# text = اے نمدی چہ پیٹر ءِ نیمگا اِنت ءُ اے زِی سر بوتگ ۔
+1	اے	اے	ADJ	NNPC	_	2	punct	_	_
+2	نمدی	نمدی	ADJ	JJ	Case=Nom	4	amod	_	_
+3	چہ	چہ	NOUN	NNC	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	compound	_	_
+4	پیٹر	پیٹر	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+5	ءِ	ءِ	NOUN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+6	نیمگا	نیمگا	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_
+7	اِنت	اِنت	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_
+8	ءُ	ءُ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_
+9	اے	اے	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_
+10	زِی	زِی	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_
+11	سر	سر	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	compound	_	_
+12	بوتگ	بوتگ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+13	۔	۔	PUNCT	SYM	_	12	punct	_	SpacesAfter=\r\n
+
+# sent_id = 20
+# text = آ فرانس ءِ بُندر ، پیرس ءَ رُستگ ۔
+1	آ	آ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	compound	_	_
+2	فرانس	فرانس	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+3	ءِ	ءِ	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	compound	_	_
+4	بُندر	بُندر	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	0	root	_	_
+5	،	،	PUNCT	SYM	_	8	punct	_	_
+6	پیرس	پیرس	PROPN	NNPC	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	compound	_	_
+7	ءَ	ءَ	PROPN	NN	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
+8	رُستگ	رُستگ	PROPN	NNP	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	conj	_	_
+9	۔	۔	PUNCT	SYM	_	8	punct	_	SpacesAfter=\r\n
+
