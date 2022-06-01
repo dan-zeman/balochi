@@ -3,15 +3,15 @@
 # sent_id = 1
 # text = جنک ءَ وتی دزگوہار ءَ را نمدی یے نبشتہ کت۔
 # text_en = The girl wrote a letter to her friend.
-1	جنک	_	X	_	_	4	nmod	_	Translit=jnk
+1	جنک	_	NOUN	_	_	4	nmod	_	Gloss=girl|Translit=jnk
 2	ءَ	_	X	_	_	1	dep	_	Translit='a
 3	وتی	_	X	_	_	4	compound	_	Translit=ūtī
-4	دزگوہار	_	X	_	_	7	nmod	_	Translit=dzgūhār
+4	دزگوہار	_	NOUN	_	_	7	nmod	_	Gloss=friend|Translit=dzgūhār
 5	ءَ	_	X	_	_	7	compound	_	Translit='a
 6	را	_	X	_	_	7	compound	_	Translit=rā
-7	نمدی	_	X	_	_	10	obl	_	Translit=nmdī
+7	نمدی	_	NOUN	_	_	10	obl	_	Gloss=letter|Translit=nmdī
 8	یے	_	X	_	_	7	case	_	Translit=īe
-9	نبشتہ	_	X	_	_	10	compound	_	Translit=nbšth
+9	نبشتہ	_	VERB	_	_	10	compound	_	Gloss=wrote|Translit=nbšth
 10	کت	_	X	_	_	0	root	_	SpaceAfter=No|Translit=kt
 11	۔	_	PUNCT	_	_	10	punct	_	SpacesAfter=\r\n|Translit=.
 
