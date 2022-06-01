@@ -45,7 +45,7 @@
 # sent_id = 4
 # text = تو روگ لوٹ ئے؟
 # text_en = Do you want to go?
-1	تو	_	X	_	_	3	mark	_	Translit=tū
+1	تو	_	PRON	_	_	3	mark	_	Translit=tū
 2	روگ	_	X	_	_	3	obj	_	Translit=rūg
 3	لوٹ	_	X	_	_	0	root	_	Translit=lūṭ
 4	ئے	_	X	_	_	3	aux	_	SpaceAfter=No|Translit=je
@@ -54,7 +54,7 @@
 # sent_id = 5
 # text = سیم، دریگ ءَ پچ کن!
 # text_en = Sam, open the window!
-1	سیم	_	X	_	_	6	nsubj	_	SpaceAfter=No|Translit=sīm
+1	سیم	_	PROPN	_	_	6	nsubj	_	SpaceAfter=No|Translit=sīm
 2	،	_	PUNCT	_	_	1	punct	_	Translit=,
 3	دریگ	_	X	_	_	4	nmod	_	Translit=drīg
 4	ءَ	_	X	_	_	6	nmod	_	Translit='a
@@ -80,7 +80,7 @@
 # sent_id = 7
 # text = پیٹر ءِ ہمساہگ ءَ پل ءَ را سُہریں رنگ جت۔
 # text_en = Peter’s neighbor painted the fence red.
-1	پیٹر	_	X	_	_	2	compound	_	Translit=pīṭr
+1	پیٹر	_	PROPN	_	_	2	compound	_	Translit=pīṭr
 2	ءِ	_	X	_	_	3	nmod	_	Translit='i
 3	ہمساہگ	_	X	_	_	9	nmod	_	Translit=hmsāhg
 4	ءَ	_	X	_	_	3	nmod	_	Translit='a
@@ -107,17 +107,17 @@
 # sent_id = 9
 # text = میری ءَ برونزے یے، پیٹر ءَ نُگرہ ءِ ءُ جین ءَ تلاہ ءِ میڈلے کٹ اِت۔
 # text_en = Mary won bronze, Peter silver, and Jane gold.
-1	میری	_	X	_	_	2	nmod	_	Translit=mīrī
+1	میری	_	PROPN	_	_	2	nmod	_	Translit=mīrī
 2	ءَ	_	X	_	_	3	nmod	_	Translit='a
 3	برونزے	_	X	_	_	0	root	_	Translit=brūnze
 4	یے	_	X	_	_	3	case	_	SpaceAfter=No|Translit=īe
 5	،	_	PUNCT	_	_	3	punct	_	Translit=,
-6	پیٹر	_	X	_	_	8	nmod	_	Translit=pīṭr
+6	پیٹر	_	PROPN	_	_	8	nmod	_	Translit=pīṭr
 7	ءَ	_	X	_	_	8	compound	_	Translit='a
 8	نُگرہ	_	X	_	_	3	conj	_	Translit=nugrh
 9	ءِ	_	X	_	_	8	nmod	_	Translit='i
 10	ءُ	_	X	_	_	12	nmod	_	Translit='u
-11	جین	_	X	_	_	12	nmod	_	Translit=jīn
+11	جین	_	PROPN	_	_	12	nmod	_	Translit=jīn
 12	ءَ	_	X	_	_	14	nmod	_	Translit='a
 13	تلاہ	_	X	_	_	15	compound	_	Translit=tlāh
 14	ءِ	_	X	_	_	15	nmod	_	Translit='i
@@ -129,7 +129,7 @@
 # sent_id = 10
 # text = اِگوازو مزنیں مُلکے یا کسانیں؟
 # text_en = Is Iguazu a big or a small country?
-1	اِگوازو	_	X	_	_	3	obl	_	Translit=āigūāzū
+1	اِگوازو	_	PROPN	_	_	3	obl	_	Translit=āigūāzū
 2	مزنیں	_	X	_	_	3	nsubj	_	Translit=mznīñ
 3	مُلکے	_	X	_	_	0	root	_	Translit=mulke
 4	یا	_	X	_	_	5	cc	_	Translit=īā
@@ -140,12 +140,12 @@
 # text = نیکہ پیٹر سمتھ ءُ نیکہ میری براؤن زورگ بوت اَنت۔
 # text_en = Neither Peter Smith nor Mary Brown could be selected.
 1	نیکہ	_	X	_	_	4	amod	_	Translit=nīkh
-2	پیٹر	_	X	_	_	3	compound	_	Translit=pīṭr
-3	سمتھ	_	X	_	_	4	nmod	_	Translit=smth
+2	پیٹر	_	PROPN	_	_	3	compound	_	Translit=pīṭr
+3	سمتھ	_	PROPN	_	_	4	nmod	_	Translit=smth
 4	ءُ	_	X	_	_	0	root	_	Translit='u
 5	نیکہ	_	X	_	_	10	compound	_	Translit=nīkh
-6	میری	_	X	_	_	10	compound	_	Translit=mīrī
-7	براؤن	_	X	_	_	10	compound	_	Translit=brāŪn
+6	میری	_	PROPN	_	_	10	compound	_	Translit=mīrī
+7	براؤن	_	PROPN	_	_	10	compound	_	Translit=brāŪn
 8	زورگ	_	X	_	_	10	nmod	_	Translit=zūrg
 9	بوت	_	X	_	_	10	compound	_	Translit=būt
 10	اَنت	_	X	_	_	4	nmod	_	SpaceAfter=No|Translit=āant
@@ -208,9 +208,9 @@
 # sent_id = 16
 # text = پیٹر ءُ میری ءَ یکے دومی ءَ گلائیش کُت ءُ چہ کوٹی ءَ در اتک اَنت۔
 # text_en = Peter and Mary hugged each other and then left the room.
-1	پیٹر	_	X	_	_	4	nmod	_	Translit=pīṭr
+1	پیٹر	_	PROPN	_	_	4	nmod	_	Translit=pīṭr
 2	ءُ	_	X	_	_	4	dep	_	Translit='u
-3	میری	_	X	_	_	4	nmod	_	Translit=mīrī
+3	میری	_	PROPN	_	_	4	nmod	_	Translit=mīrī
 4	ءَ	_	X	_	_	6	nmod	_	Translit='a
 5	یکے	_	X	_	_	6	compound	_	Translit=īke
 6	دومی	_	X	_	_	16	nmod	_	Translit=dūmī
@@ -273,7 +273,7 @@
 1	اے	_	X	_	_	2	punct	_	Translit=āe
 2	نمدی	_	X	_	_	4	amod	_	Translit=nmdī
 3	چہ	_	X	_	_	4	compound	_	Translit=čh
-4	پیٹر	_	X	_	_	5	nmod	_	Translit=pīṭr
+4	پیٹر	_	PROPN	_	_	5	nmod	_	Translit=pīṭr
 5	ءِ	_	X	_	_	0	root	_	Translit='i
 6	نیمگا	_	X	_	_	12	compound	_	Translit=nīmgā
 7	اِنت	_	X	_	_	12	compound	_	Translit=āint
@@ -288,11 +288,11 @@
 # text = آ فرانس ءِ بُندر، پیرس ءَ رُستگ۔
 # text_en = She grew up in Paris, the capital of France.
 1	آ	_	X	_	_	2	compound	_	Translit=Ā
-2	فرانس	_	X	_	_	4	nmod	_	Translit=frāns
+2	فرانس	_	PROPN	_	_	4	nmod	_	Translit=frāns
 3	ءِ	_	X	_	_	4	compound	_	Translit='i
 4	بُندر	_	X	_	_	0	root	_	SpaceAfter=No|Translit=bundr
 5	،	_	PUNCT	_	_	8	punct	_	Translit=,
-6	پیرس	_	X	_	_	7	compound	_	Translit=pīrs
+6	پیرس	_	PROPN	_	_	7	compound	_	Translit=pīrs
 7	ءَ	_	X	_	_	8	nmod	_	Translit='a
 8	رُستگ	_	X	_	_	4	conj	_	SpaceAfter=No|Translit=rustg
 9	۔	_	PUNCT	_	_	8	punct	_	SpacesAfter=\r\n|Translit=.
