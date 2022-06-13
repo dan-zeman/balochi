@@ -27,9 +27,9 @@
 7	۔	_	PUNCT	_	_	6	punct	_	SpacesAfter=\r\n|Translit=.
 
 # sent_id = 3
-# text = آئی ءَ کشّگ ءُ نوشگ ءِ یلہ دئیگ ءِ جُہد کُت۔
+# text = آئی ءَ کشّگ ءُ نوشگ ءِ یلہ دئیگ ءِ جُہد کُت۔
 # text_en = He tried to stop smoking and drinking.
-1	آئی	_	PRON	_	_	2	compound	_	Translit=āٓjī
+1	آئی	_	PRON	_	_	2	compound	_	Translit=āٓjī
 2	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
 3	کشّگ	_	NOUN	_	_	7	obl	_	Translit=kš:g
 4	ءُ	_	CCONJ	_	_	5	cc	_	Translit='u
@@ -47,7 +47,7 @@
 # text_en = Do you want to go?
 1	تو	_	PRON	_	_	3	nsubj	_	Translit=tū
 2	روگ	_	NOUN	_	_	3	obj	_	Translit=rūg
-3	لوٹ	_	VERB	_	_	0	root	_	Translit=lūṭ
+3	لوٹ	_	VERB	_	_	0	root	_	Translit=lūṭ
 4	ئے	_	PART	_	_	3	aux	_	SpaceAfter=No|Translit=je
 5	؟	_	PUNCT	_	_	3	punct	_	SpacesAfter=\r\n|Translit=?
 
@@ -80,7 +80,7 @@
 # sent_id = 7
 # text = پیٹر ءِ ہمساہگ ءَ پل ءَ را سُہریں رنگ جت۔
 # text_en = Peter’s neighbor painted the fence red.
-1	پیٹر	_	PROPN	_	_	3	nmod	_	Translit=pīṭr
+1	پیٹر	_	PROPN	_	_	3	nmod	_	Translit=pīṭr
 2	ءِ	_	X	_	_	1	case	_	Translit='i
 3	ہمساہگ	_	NOUN	_	_	9	nsubj	_	Translit=hmsāhg
 4	ءَ	ءَ	ADP	_	Case=Erg	3	case	_	Translit='a
@@ -112,7 +112,7 @@
 3	برونزے	_	PROPN	_	_	0	root	_	Translit=brūnze
 4	یے	_	X	_	_	3	case	_	SpaceAfter=No|Translit=īe
 5	،	_	PUNCT	_	_	3	punct	_	Translit=,
-6	پیٹر	_	PROPN	_	_	8	nsubj	_	Translit=pīṭr
+6	پیٹر	_	PROPN	_	_	8	nsubj	_	Translit=pīṭr
 7	ءَ	ءَ	ADP	_	Case=Erg	6	case	_	Translit='a
 8	نُگرہ	_	PROPN	_	_	3	conj	_	Translit=nugrh
 9	ءِ	_	X	_	_	8	nmod	_	Translit='i
@@ -121,8 +121,8 @@
 12	ءَ	ءَ	ADP	_	Case=Erg	11	case	_	Translit='a
 13	تلاہ	_	PROPN	_	_	3	conj	_	Translit=tlāh
 14	ءِ	_	X	_	_	13	case	_	Translit='i
-15	میڈلے	_	NOUN	_	_	16	nmod	_	Translit=mīḍle
-16	کٹ	_	VERB	_	_	3	conj	_	Translit=kṭ
+15	میڈلے	_	NOUN	_	_	16	nmod	_	Translit=mīḍle
+16	کٹ	_	VERB	_	_	3	conj	_	Translit=kṭ
 17	اِت	_	X	_	_	16	aux	_	SpaceAfter=No|Translit=āit
 18	۔	_	PUNCT	_	_	17	punct	_	SpacesAfter=\r\n|Translit=.
 
@@ -140,7 +140,7 @@
 # text = نیکہ پیٹر سمتھ ءُ نیکہ میری براؤن زورگ بوت اَنت۔
 # text_en = Neither Peter Smith nor Mary Brown could be selected.
 1	نیکہ	_	DET	_	_	2	det	_	Translit=nīkh
-2	پیٹر	_	PROPN	_	_	10	nsubj	_	Translit=pīṭr
+2	پیٹر	_	PROPN	_	_	10	nsubj	_	Translit=pīṭr
 3	سمتھ	_	PROPN	_	_	2	flat	_	Translit=smth
 4	ءُ	_	CCONJ	_	_	6	cc	_	Translit='u
 5	نیکہ	_	DET	_	_	6	det	_	Translit=nīkh
@@ -202,13 +202,13 @@
 9	ءَ	ءَ	ADP	_	Case=Erg	8	case	_	Translit='a
 10	بس	_	ADV	_	_	8	orphan	_	Translit=bs
 11	یک	_	ADV	_	_	8	orphan	_	Translit=īk
-12	پرپٹے	_	NOUN	_	_	8	orphan	_	SpaceAfter=No|Translit=prpṭe
+12	پرپٹے	_	NOUN	_	_	8	orphan	_	SpaceAfter=No|Translit=prpṭe
 13	۔	_	PUNCT	_	_	5	punct	_	SpacesAfter=\r\n|Translit=.
 
 # sent_id = 16
 # text = پیٹر ءُ میری ءَ یکے دومی ءَ گلائیش کُت ءُ چہ کوٹی ءَ در اتک اَنت۔
 # text_en = Peter and Mary hugged each other and then left the room.
-1	پیٹر	_	PROPN	_	_	8	nsubj	_	Translit=pīṭr
+1	پیٹر	_	PROPN	_	_	8	nsubj	_	Translit=pīṭr
 2	ءُ	_	CCONJ	_	_	3	cc	_	Translit='u
 3	میری	_	PROPN	_	_	1	conj	_	Translit=mīrī
 4	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
@@ -219,7 +219,7 @@
 9	کُت	_	VERB	_	_	8	nmod	_	Translit=kut
 10	ءُ	_	CCONJ	_	_	15	cc	_	Translit='u
 11	چہ	_	ADP	_	_	12	case	_	Translit=čh
-12	کوٹی	_	NOUN	_	_	15	obl	_	Translit=kūṭī
+12	کوٹی	_	NOUN	_	_	15	obl	_	Translit=kūṭī
 13	ءَ	ءَ	ADP	_	Case=Erg	12	case	_	Translit='a
 14	در	_	ADV	_	_	15	compound	_	Translit=dr
 15	اتک	_	VERB	_	_	8	conj	_	Translit=ātk
@@ -227,7 +227,7 @@
 17	۔	_	PUNCT	_	_	8	punct	_	SpacesAfter=\r\n|Translit=.
 
 # sent_id = 17
-# text = آ بائدیں وتی سر ءِ رندگ ءَ بوتیں بلے لہتے سوب ءَ آ روچی نہ رست ئِے۔
+# text = آ بائدیں وتی سر ءِ رندگ ءَ بوتیں بلے لہتے سوب ءَ آ روچی نہ رست ئِے۔
 # text_en = She should have been doing her hair but for some reason she wouldn't that day.
 1	آ	_	PRON	_	_	6	nsubj	_	Translit=Ā
 2	بائدیں	_	X	_	_	6	dep	_	Translit=bājdīñ
@@ -241,7 +241,7 @@
 10	لہتے	_	DET	_	_	11	det	_	Translit=lhte
 11	سوب	_	NOUN	_	_	16	obl	_	Translit=sūb
 12	ءَ	ءَ	ADP	_	Case=Erg	11	case	_	Translit='a
-13	آ	_	DET	_	_	14	det	_	Translit=āٓ
+13	آ	_	DET	_	_	14	det	_	Translit=āٓ
 14	روچی	_	NOUN	_	_	16	obl	_	Translit=rūčī
 15	نہ	_	ADV	_	_	16	advmod	_	Translit=nh
 16	رست	_	VERB	_	_	8	conj	_	Translit=rst
@@ -273,7 +273,7 @@
 1	اے	_	PRON	_	_	2	nmod	_	Translit=āe
 2	نمدی	_	NOUN	_	_	4	nsubj	_	Translit=nmdī
 3	چہ	_	ADP	_	_	4	case	_	Translit=čh
-4	پیٹر	_	PROPN	_	_	0	root	_	Translit=pīṭr
+4	پیٹر	_	PROPN	_	_	0	root	_	Translit=pīṭr
 5	ءِ	_	X	_	_	4	case	_	Translit='i
 6	نیمگا	_	NOUN	_	_	4	compound	_	Translit=nīmgā
 7	اِنت	_	X	_	_	4	compound	_	Translit=āint
