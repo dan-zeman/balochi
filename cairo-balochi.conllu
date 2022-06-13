@@ -34,10 +34,10 @@
 3	کشّگ	_	NOUN	_	_	7	obl	_	Translit=kš:g
 4	ءُ	_	CCONJ	_	_	5	cc	_	Translit='u
 5	نوشگ	_	NOUN	_	_	3	conj	_	Translit=nūšg
-6	ءِ	_	X	_	_	3	case	_	Translit='i
+6	ءِ	ءِ	ADP	_	Case=Gen	3	case	_	Translit='i
 7	یلہ	_	VERB	_	_	8	compound	_	Translit=īlh
 8	دئیگ	_	VERB	_	_	11	compound	_	Translit=djīg
-9	ءِ	_	X	_	_	8	compound	_	Translit='i
+9	ءِ	ءِ	ADP	_	Case=Gen	8	compound	_	Translit='i
 10	جُہد	_	NOUN	_	_	11	compound	_	Translit=juhd
 11	کُت	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=kut
 12	۔	_	PUNCT	_	_	11	punct	_	SpacesAfter=\r\n|Translit=.
@@ -72,7 +72,7 @@
 5	ءَ	ءَ	ADP	_	Case=Erg	4	case	_	Translit='a
 6	را	_	ADP	_	_	4	case	_	Translit=rā
 7	گاڑی	_	NOUN	_	_	9	nmod	_	Translit=gārī
-8	ءِ	_	X	_	_	9	compound	_	Translit='i
+8	ءِ	ءِ	ADP	_	Case=Gen	9	compound	_	Translit='i
 9	شودگ	_	NOUN	_	_	10	obj	_	Translit=šūdg
 10	پرمات	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=prmāt
 11	۔	_	PUNCT	_	_	10	punct	_	SpacesAfter=\r\n|Translit=.
@@ -81,7 +81,7 @@
 # text = پیٹر ءِ ہمساہگ ءَ پل ءَ را سُہریں رنگ جت۔
 # text_en = Peter’s neighbor painted the fence red.
 1	پیٹر	_	PROPN	_	_	3	nmod	_	Translit=pīṭr
-2	ءِ	_	X	_	_	1	case	_	Translit='i
+2	ءِ	ءِ	ADP	_	Case=Gen	1	case	_	Translit='i
 3	ہمساہگ	_	NOUN	_	_	9	nsubj	_	Translit=hmsāhg
 4	ءَ	ءَ	ADP	_	Case=Erg	3	case	_	Translit='a
 5	پل	_	NOUN	_	_	9	iobj	_	Translit=pl
@@ -115,12 +115,12 @@
 6	پیٹر	_	PROPN	_	_	8	nsubj	_	Translit=pīṭr
 7	ءَ	ءَ	ADP	_	Case=Erg	6	case	_	Translit='a
 8	نُگرہ	_	PROPN	_	_	3	conj	_	Translit=nugrh
-9	ءِ	_	X	_	_	8	nmod	_	Translit='i
+9	ءِ	ءِ	ADP	_	Case=Gen	8	nmod	_	Translit='i
 10	ءُ	_	CCONJ	_	_	11	cc	_	Translit='u
 11	جین	_	PROPN	_	_	13	nsubj	_	Translit=jīn
 12	ءَ	ءَ	ADP	_	Case=Erg	11	case	_	Translit='a
 13	تلاہ	_	PROPN	_	_	3	conj	_	Translit=tlāh
-14	ءِ	_	X	_	_	13	case	_	Translit='i
+14	ءِ	ءِ	ADP	_	Case=Gen	13	case	_	Translit='i
 15	میڈلے	_	NOUN	_	_	16	nmod	_	Translit=mīḍle
 16	کٹ	_	VERB	_	_	3	conj	_	Translit=kṭ
 17	اِت	_	X	_	_	16	aux	_	SpaceAfter=No|Translit=āit
@@ -233,7 +233,7 @@
 2	بائدیں	_	X	_	_	6	dep	_	Translit=bājdīñ
 3	وتی	_	PRON	_	_	4	nmod	_	Translit=ūtī
 4	سر	_	NOUN	_	_	6	obl	_	Translit=sr
-5	ءِ	_	X	_	_	4	case	_	Translit='i
+5	ءِ	ءِ	ADP	_	Case=Gen	4	case	_	Translit='i
 6	رندگ	_	VERB	_	_	8	xcomp	_	Translit=rndg
 7	ءَ	ءَ	ADP	_	Case=Erg	6	case	_	Translit='a
 8	بوتیں	_	VERB	_	_	0	root	_	Translit=būtīñ
@@ -274,7 +274,7 @@
 2	نمدی	_	NOUN	_	_	4	nsubj	_	Translit=nmdī
 3	چہ	_	ADP	_	_	4	case	_	Translit=čh
 4	پیٹر	_	PROPN	_	_	0	root	_	Translit=pīṭr
-5	ءِ	_	X	_	_	4	case	_	Translit='i
+5	ءِ	ءِ	ADP	_	Case=Gen	4	case	_	Translit='i
 6	نیمگا	_	NOUN	_	_	4	compound	_	Translit=nīmgā
 7	اِنت	_	X	_	_	4	compound	_	Translit=āint
 8	ءُ	_	CCONJ	_	_	12	cc	_	Translit='u
@@ -289,7 +289,7 @@
 # text_en = She grew up in Paris, the capital of France.
 1	آ	_	PRON	_	_	8	nsubj	_	Translit=Ā
 2	فرانس	_	PROPN	_	_	4	nmod	_	Translit=frāns
-3	ءِ	_	X	_	_	2	case	_	Translit='i
+3	ءِ	ءِ	ADP	_	Case=Gen	2	case	_	Translit='i
 4	بُندر	_	NOUN	_	_	8	obl	_	SpaceAfter=No|Translit=bundr
 5	،	_	PUNCT	_	_	6	punct	_	Translit=,
 6	پیرس	_	PROPN	_	_	4	appos	_	Translit=pīrs
