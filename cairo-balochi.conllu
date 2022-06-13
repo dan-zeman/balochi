@@ -8,7 +8,7 @@
 3	وتی	_	PRON	_	_	4	nmod	_	Translit=ūtī
 4	دزگوہار	_	NOUN	_	_	9	iobj	_	Gloss=friend|Translit=dzgūhār
 5	ءَ	ءَ	ADP	_	Case=Erg	4	case	_	Translit='a
-6	را	_	ADP	_	_	7	compound	_	Translit=rā
+6	را	را	ADP	_	Case=Dat	7	compound	_	Translit=rā
 7	نمدی	_	NOUN	_	_	9	obj	_	Gloss=letter|Translit=nmdī
 8	یے	_	X	_	_	7	case	_	Translit=īe
 9	نبشتہ	_	VERB	_	_	10	compound	_	Gloss=wrote|Translit=nbšth
@@ -70,7 +70,7 @@
 3	وتی	_	PRON	_	_	4	nmod	_	Translit=ūtī
 4	مرد	_	NOUN	_	_	10	obj	_	Translit=mrd
 5	ءَ	ءَ	ADP	_	Case=Erg	4	case	_	Translit='a
-6	را	_	ADP	_	_	4	case	_	Translit=rā
+6	را	را	ADP	_	Case=Dat	4	case	_	Translit=rā
 7	گاڑی	_	NOUN	_	_	9	nmod	_	Translit=gārī
 8	ءِ	ءِ	ADP	_	Case=Gen	7	case	_	Translit='i
 9	شودگ	_	NOUN	_	_	10	obj	_	Translit=šūdg
@@ -86,7 +86,7 @@
 4	ءَ	ءَ	ADP	_	Case=Erg	3	case	_	Translit='a
 5	پل	_	NOUN	_	_	9	iobj	_	Translit=pl
 6	ءَ	ءَ	ADP	_	Case=Erg	5	case	_	Translit='a
-7	را	_	ADP	_	_	5	case	_	Translit=rā
+7	را	را	ADP	_	Case=Dat	5	case	_	Translit=rā
 8	سُہریں	_	ADJ	_	_	9	amod	_	Translit=suhrīñ
 9	رنگ	_	NOUN	_	_	10	nmod	_	Translit=rng
 10	جت	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=jt
@@ -254,7 +254,7 @@
 1	من	_	PRON	_	_	5	nsubj	_	Translit=mn
 2	آئی	_	PRON	_	_	5	obl	_	Translit=Ājī
 3	ءَ	ءَ	ADP	_	Case=Erg	2	case	_	Translit='a
-4	را	_	ADP	_	_	2	case	_	Translit=rā
+4	را	را	ADP	_	Case=Dat	2	case	_	Translit=rā
 5	رسینت	_	VERB	_	_	7	nmod	_	Translit=rsīnt
 6	نہ	_	ADV	_	_	7	advmod	_	Translit=nh
 7	کُت	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=kut
