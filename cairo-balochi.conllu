@@ -29,7 +29,7 @@
 # sent_id = 3
 # text = آئی ءَ کشّگ ءُ نوشگ ءِ یلہ دئیگ ءِ جُہد کُت۔
 # text_en = He tried to stop smoking and drinking.
-1	آئی	_	PRON	_	_	2	compound	_	Translit=āٓjī
+1	آئی	_	PRON	_	_	11	nsubj	_	Translit=āٓjī
 2	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
 3	کشّگ	_	NOUN	_	_	7	obl	_	Translit=kš:g
 4	ءُ	_	CCONJ	_	_	5	cc	_	Translit='u
