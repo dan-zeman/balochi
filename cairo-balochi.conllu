@@ -3,17 +3,17 @@
 # sent_id = 1
 # text = جنک ءَ وتی دزگوہار ءَ را نمدی یے نبشتہ کت۔
 # text_en = The girl wrote a letter to her friend.
-1	جنک	_	NOUN	_	_	9	nsubj	_	Gloss=girl|Translit=jnk
+1	جنک	جنک	NOUN	_	_	9	nsubj	_	Gloss=girl|Translit=jnk
 2	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
-3	وتی	_	PRON	_	_	4	nmod	_	Translit=ūtī
-4	دزگوہار	_	NOUN	_	_	9	iobj	_	Gloss=friend|Translit=dzgūhār
+3	وتی	وتی	PRON	_	_	4	nmod	_	Gloss=her|Translit=ūtī
+4	دزگوہار	دزگوہار	NOUN	_	_	9	iobj	_	Gloss=friend|Translit=dzgūhār
 5	ءَ	ءَ	ADP	_	Case=Erg	4	case	_	Translit='a
 6	را	را	ADP	_	Case=Dat	4	case	_	Translit=rā
-7	نمدی	_	NOUN	_	_	9	obj	_	Gloss=letter|Translit=nmdī
-8	یے	_	X	_	_	7	case	_	Translit=īe
+7	نمدی	نمدی	NOUN	_	_	9	obj	_	Gloss=letter|Translit=nmdī
+8	یے	یے	X	_	_	7	case	_	Gloss=a|Translit=īe
 9	نبشتہ	_	VERB	_	_	10	compound	_	Gloss=wrote|Translit=nbšth
 10	کت	_	X	_	_	0	root	_	SpaceAfter=No|Translit=kt
-11	۔	۔	PUNCT	_	_	10	punct	_	SpacesAfter=\r\n|Translit=.
+11	۔	۔	PUNCT	_	_	10	punct	_	Gloss=.|SpacesAfter=\r\n|Translit=.
 
 # sent_id = 2
 # text = منی دل ءَ ہئور بئیگا اِنت۔
@@ -139,17 +139,17 @@
 # sent_id = 11
 # text = نیکہ پیٹر سمتھ ءُ نیکہ میری براؤن زورگ بوت اَنت۔
 # text_en = Neither Peter Smith nor Mary Brown could be selected.
-1	نیکہ	_	DET	_	_	2	det	_	Translit=nīkh
-2	پیٹر	_	PROPN	_	_	10	nsubj	_	Translit=pīṭr
-3	سمتھ	_	PROPN	_	_	2	flat	_	Translit=smth
-4	ءُ	_	CCONJ	_	_	6	cc	_	Translit='u
-5	نیکہ	_	DET	_	_	6	det	_	Translit=nīkh
-6	میری	_	PROPN	_	_	2	conj	_	Translit=mīrī
-7	براؤن	_	PROPN	_	_	6	flat	_	Translit=brāŪn
+1	نیکہ	_	DET	_	_	2	det	_	Gloss=neither|Translit=nīkh
+2	پیٹر	_	PROPN	_	_	10	nsubj	_	Gloss=Peter|Translit=pīṭr
+3	سمتھ	_	PROPN	_	_	2	flat	_	Gloss=Smith|Translit=smth
+4	ءُ	_	CCONJ	_	_	6	cc	_	Gloss=and|Translit='u
+5	نیکہ	_	DET	_	_	6	det	_	Gloss=nor|Translit=nīkh
+6	میری	_	PROPN	_	_	2	conj	_	Gloss=Mary|Translit=mīrī
+7	براؤن	_	PROPN	_	_	6	flat	_	Gloss=Brown|Translit=brāŪn
 8	زورگ	_	NOUN	_	_	10	nmod	_	Translit=zūrg
 9	بوت	_	VERB	_	_	10	compound	_	Translit=būt
 10	اَنت	_	X	_	_	0	root	_	SpaceAfter=No|Translit=āant
-11	۔	۔	PUNCT	_	_	10	punct	_	SpacesAfter=\r\n|Translit=.
+11	۔	۔	PUNCT	_	_	10	punct	_	Gloss=.|SpacesAfter=\r\n|Translit=.
 
 # sent_id = 12
 # text = آ ہچ نہ زان اَنت کہ اے کئیا نبشتہ کُتگ۔
