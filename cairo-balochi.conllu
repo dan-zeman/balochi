@@ -3,13 +3,13 @@
 # sent_id = 1
 # text = جنک ءَ وتی دزگوہار ءَ را نمدی یے نبشتہ کت۔
 # text_en = The girl wrote a letter to her friend.
-1	جنک	_	NOUN	_	_	4	nmod	_	Gloss=girl|Translit=jnk
+1	جنک	_	NOUN	_	_	9	nsubj	_	Gloss=girl|Translit=jnk
 2	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
-3	وتی	_	PRON	_	_	4	compound	_	Translit=ūtī
-4	دزگوہار	_	NOUN	_	_	7	nmod	_	Gloss=friend|Translit=dzgūhār
+3	وتی	_	PRON	_	_	4	nmod	_	Translit=ūtī
+4	دزگوہار	_	NOUN	_	_	9	iobj	_	Gloss=friend|Translit=dzgūhār
 5	ءَ	ءَ	ADP	_	Case=Erg	4	case	_	Translit='a
 6	را	_	ADP	_	_	7	compound	_	Translit=rā
-7	نمدی	_	NOUN	_	_	10	obl	_	Gloss=letter|Translit=nmdī
+7	نمدی	_	NOUN	_	_	9	obj	_	Gloss=letter|Translit=nmdī
 8	یے	_	X	_	_	7	case	_	Translit=īe
 9	نبشتہ	_	VERB	_	_	10	compound	_	Gloss=wrote|Translit=nbšth
 10	کت	_	X	_	_	0	root	_	SpaceAfter=No|Translit=kt
@@ -18,8 +18,8 @@
 # sent_id = 2
 # text = منی دل ءَ ہئور بئیگا اِنت۔
 # text_en = I think that it is raining.
-1	منی	_	PRON	_	_	2	compound	_	Translit=mnī
-2	دل	_	NOUN	_	_	6	compound	_	Translit=dl
+1	منی	_	PRON	_	_	2	nmod	_	Translit=mnī
+2	دل	_	NOUN	_	_	5	compound	_	Translit=dl
 3	ءَ	ءَ	ADP	_	Case=Erg	2	case	_	Translit='a
 4	ہئور	_	NOUN	_	_	6	compound	_	Translit=hjūr
 5	بئیگا	_	VERB	_	_	6	compound	_	Translit=bjīgā
@@ -31,13 +31,13 @@
 # text_en = He tried to stop smoking and drinking.
 1	آئی	_	PRON	_	_	2	compound	_	Translit=āٓjī
 2	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
-3	کشّگ	_	NOUN	_	_	5	nmod	_	Translit=kš:g
-4	ءُ	_	CCONJ	_	_	5	compound	_	Translit='u
-5	نوشگ	_	NOUN	_	_	11	nmod	_	Translit=nūšg
-6	ءِ	_	X	_	_	10	compound	_	Translit='i
-7	یلہ	_	VERB	_	_	10	compound	_	Translit=īlh
+3	کشّگ	_	NOUN	_	_	7	obl	_	Translit=kš:g
+4	ءُ	_	CCONJ	_	_	5	cc	_	Translit='u
+5	نوشگ	_	NOUN	_	_	3	conj	_	Translit=nūšg
+6	ءِ	_	X	_	_	3	case	_	Translit='i
+7	یلہ	_	VERB	_	_	8	compound	_	Translit=īlh
 8	دئیگ	_	VERB	_	_	11	compound	_	Translit=djīg
-9	ءِ	_	X	_	_	10	compound	_	Translit='i
+9	ءِ	_	X	_	_	8	compound	_	Translit='i
 10	جُہد	_	NOUN	_	_	11	compound	_	Translit=juhd
 11	کُت	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=kut
 12	۔	_	PUNCT	_	_	11	punct	_	SpacesAfter=\r\n|Translit=.
@@ -45,7 +45,7 @@
 # sent_id = 4
 # text = تو روگ لوٹ ئے؟
 # text_en = Do you want to go?
-1	تو	_	PRON	_	_	3	mark	_	Translit=tū
+1	تو	_	PRON	_	_	3	nsubj	_	Translit=tū
 2	روگ	_	NOUN	_	_	3	obj	_	Translit=rūg
 3	لوٹ	_	VERB	_	_	0	root	_	Translit=lūṭ
 4	ئے	_	PART	_	_	3	aux	_	SpaceAfter=No|Translit=je
@@ -54,9 +54,9 @@
 # sent_id = 5
 # text = سیم، دریگ ءَ پچ کن!
 # text_en = Sam, open the window!
-1	سیم	_	PROPN	_	_	6	nsubj	_	SpaceAfter=No|Translit=sīm
+1	سیم	_	PROPN	_	_	6	vocative	_	SpaceAfter=No|Translit=sīm
 2	،	_	PUNCT	_	_	1	punct	_	Translit=,
-3	دریگ	_	NOUN	_	_	4	nmod	_	Translit=drīg
+3	دریگ	_	NOUN	_	_	5	obj	_	Translit=drīg
 4	ءَ	ءَ	ADP	_	Case=Erg	3	case	_	Translit='a
 5	پچ	_	VERB	_	_	6	compound	_	Translit=pč
 6	کن	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=kn
@@ -65,12 +65,12 @@
 # sent_id = 6
 # text = آئی ءَ وتی مرد ءَ را گاڑی ءِ شودگ پرمات۔
 # text_en = She made her husband wash the car.
-1	آئی	_	PRON	_	_	2	compound	_	Translit=Ājī
+1	آئی	_	PRON	_	_	10	nsubj	_	Translit=Ājī
 2	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
-3	وتی	_	PRON	_	_	4	compound	_	Translit=ūtī
-4	مرد	_	NOUN	_	_	5	nmod	_	Translit=mrd
+3	وتی	_	PRON	_	_	4	nmod	_	Translit=ūtī
+4	مرد	_	NOUN	_	_	10	obj	_	Translit=mrd
 5	ءَ	ءَ	ADP	_	Case=Erg	4	case	_	Translit='a
-6	را	_	ADP	_	_	7	compound	_	Translit=rā
+6	را	_	ADP	_	_	4	case	_	Translit=rā
 7	گاڑی	_	NOUN	_	_	9	nmod	_	Translit=gārī
 8	ءِ	_	X	_	_	9	compound	_	Translit='i
 9	شودگ	_	NOUN	_	_	10	obj	_	Translit=šūdg
@@ -80,13 +80,13 @@
 # sent_id = 7
 # text = پیٹر ءِ ہمساہگ ءَ پل ءَ را سُہریں رنگ جت۔
 # text_en = Peter’s neighbor painted the fence red.
-1	پیٹر	_	PROPN	_	_	2	compound	_	Translit=pīṭr
-2	ءِ	_	X	_	_	3	nmod	_	Translit='i
-3	ہمساہگ	_	NOUN	_	_	9	nmod	_	Translit=hmsāhg
+1	پیٹر	_	PROPN	_	_	3	nmod	_	Translit=pīṭr
+2	ءِ	_	X	_	_	1	case	_	Translit='i
+3	ہمساہگ	_	NOUN	_	_	9	nsubj	_	Translit=hmsāhg
 4	ءَ	ءَ	ADP	_	Case=Erg	3	case	_	Translit='a
-5	پل	_	NOUN	_	_	7	nmod	_	Translit=pl
+5	پل	_	NOUN	_	_	9	iobj	_	Translit=pl
 6	ءَ	ءَ	ADP	_	Case=Erg	5	case	_	Translit='a
-7	را	_	ADP	_	_	3	conj	_	Translit=rā
+7	را	_	ADP	_	_	5	case	_	Translit=rā
 8	سُہریں	_	ADJ	_	_	9	amod	_	Translit=suhrīñ
 9	رنگ	_	NOUN	_	_	10	nmod	_	Translit=rng
 10	جت	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=jt
@@ -95,10 +95,10 @@
 # sent_id = 8
 # text = منی پت چہ تئیگ ءَ شرتِر اِنت۔
 # text_en = My dad is cooler than yours.
-1	منی	_	PRON	_	_	2	compound	_	Translit=mnī
-2	پت	_	NOUN	_	_	7	compound	_	Translit=pt
-3	چہ	_	ADP	_	_	7	compound	_	Translit=čh
-4	تئیگ	_	PRON	_	_	7	compound	_	Translit=tjīg
+1	منی	_	PRON	_	_	2	nmod	_	Translit=mnī
+2	پت	_	NOUN	_	_	7	nsubj	_	Translit=pt
+3	چہ	_	ADP	_	_	4	case	_	Translit=čh
+4	تئیگ	_	PRON	_	_	7	obl	_	Translit=tjīg
 5	ءَ	ءَ	ADP	_	Case=Erg	4	case	_	Translit='a
 6	شرتِر	_	ADJ	_	_	7	compound	_	Translit=šrtir
 7	اِنت	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=āint
@@ -107,48 +107,48 @@
 # sent_id = 9
 # text = میری ءَ برونزے یے، پیٹر ءَ نُگرہ ءِ ءُ جین ءَ تلاہ ءِ میڈلے کٹ اِت۔
 # text_en = Mary won bronze, Peter silver, and Jane gold.
-1	میری	_	PROPN	_	_	2	nmod	_	Translit=mīrī
+1	میری	_	PROPN	_	_	3	nsubj	_	Translit=mīrī
 2	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
 3	برونزے	_	PROPN	_	_	0	root	_	Translit=brūnze
 4	یے	_	X	_	_	3	case	_	SpaceAfter=No|Translit=īe
 5	،	_	PUNCT	_	_	3	punct	_	Translit=,
-6	پیٹر	_	PROPN	_	_	8	nmod	_	Translit=pīṭr
+6	پیٹر	_	PROPN	_	_	8	nsubj	_	Translit=pīṭr
 7	ءَ	ءَ	ADP	_	Case=Erg	6	case	_	Translit='a
 8	نُگرہ	_	PROPN	_	_	3	conj	_	Translit=nugrh
 9	ءِ	_	X	_	_	8	nmod	_	Translit='i
-10	ءُ	_	CCONJ	_	_	12	nmod	_	Translit='u
-11	جین	_	PROPN	_	_	12	nmod	_	Translit=jīn
+10	ءُ	_	CCONJ	_	_	11	cc	_	Translit='u
+11	جین	_	PROPN	_	_	13	nsubj	_	Translit=jīn
 12	ءَ	ءَ	ADP	_	Case=Erg	11	case	_	Translit='a
-13	تلاہ	_	PROPN	_	_	15	compound	_	Translit=tlāh
-14	ءِ	_	X	_	_	15	nmod	_	Translit='i
+13	تلاہ	_	PROPN	_	_	3	conj	_	Translit=tlāh
+14	ءِ	_	X	_	_	13	case	_	Translit='i
 15	میڈلے	_	NOUN	_	_	16	nmod	_	Translit=mīḍle
 16	کٹ	_	VERB	_	_	3	conj	_	Translit=kṭ
-17	اِت	_	X	_	_	3	conj	_	SpaceAfter=No|Translit=āit
+17	اِت	_	X	_	_	16	aux	_	SpaceAfter=No|Translit=āit
 18	۔	_	PUNCT	_	_	17	punct	_	SpacesAfter=\r\n|Translit=.
 
 # sent_id = 10
 # text = اِگوازو مزنیں مُلکے یا کسانیں؟
 # text_en = Is Iguazu a big or a small country?
-1	اِگوازو	_	PROPN	_	_	3	obl	_	Translit=āigūāzū
-2	مزنیں	_	ADJ	_	_	3	nsubj	_	Translit=mznīñ
+1	اِگوازو	_	PROPN	_	_	3	nsubj	_	Translit=āigūāzū
+2	مزنیں	_	ADJ	_	_	3	amod	_	Translit=mznīñ
 3	مُلکے	_	NOUN	_	_	0	root	_	Translit=mulke
 4	یا	_	CCONJ	_	_	5	cc	_	Translit=īā
 5	کسانیں	_	ADJ	_	_	3	conj	_	SpaceAfter=No|Translit=ksānīñ
-6	؟	_	PUNCT	_	_	5	punct	_	SpacesAfter=\r\n|Translit=?
+6	؟	_	PUNCT	_	_	3	punct	_	SpacesAfter=\r\n|Translit=?
 
 # sent_id = 11
 # text = نیکہ پیٹر سمتھ ءُ نیکہ میری براؤن زورگ بوت اَنت۔
 # text_en = Neither Peter Smith nor Mary Brown could be selected.
-1	نیکہ	_	DET	_	_	4	amod	_	Translit=nīkh
-2	پیٹر	_	PROPN	_	_	3	compound	_	Translit=pīṭr
-3	سمتھ	_	PROPN	_	_	4	nmod	_	Translit=smth
-4	ءُ	_	CCONJ	_	_	0	root	_	Translit='u
-5	نیکہ	_	DET	_	_	10	compound	_	Translit=nīkh
-6	میری	_	PROPN	_	_	10	compound	_	Translit=mīrī
-7	براؤن	_	PROPN	_	_	10	compound	_	Translit=brāŪn
+1	نیکہ	_	DET	_	_	2	det	_	Translit=nīkh
+2	پیٹر	_	PROPN	_	_	10	nsubj	_	Translit=pīṭr
+3	سمتھ	_	PROPN	_	_	2	flat	_	Translit=smth
+4	ءُ	_	CCONJ	_	_	6	cc	_	Translit='u
+5	نیکہ	_	DET	_	_	6	det	_	Translit=nīkh
+6	میری	_	PROPN	_	_	2	conj	_	Translit=mīrī
+7	براؤن	_	PROPN	_	_	6	flat	_	Translit=brāŪn
 8	زورگ	_	NOUN	_	_	10	nmod	_	Translit=zūrg
 9	بوت	_	VERB	_	_	10	compound	_	Translit=būt
-10	اَنت	_	X	_	_	4	nmod	_	SpaceAfter=No|Translit=āant
+10	اَنت	_	X	_	_	0	root	_	SpaceAfter=No|Translit=āant
 11	۔	_	PUNCT	_	_	10	punct	_	SpacesAfter=\r\n|Translit=.
 
 # sent_id = 12
@@ -160,17 +160,17 @@
 4	زان	_	VERB	_	_	5	nmod	_	Translit=zān
 5	اَنت	_	X	_	_	2	nmod	_	Translit=āant
 6	کہ	_	CCONJ	_	_	10	mark	_	Translit=kh
-7	اے	_	DET	_	_	10	nsubj	_	Translit=āe
-8	کئیا	_	PRON	_	_	9	det	_	Translit=kjīā
-9	نبشتہ	_	VERB	_	_	10	obj	_	Translit=nbšth
+7	اے	_	DET	_	_	10	obj	_	Translit=āe
+8	کئیا	_	PRON	_	_	10	nsubj	_	Translit=kjīā
+9	نبشتہ	_	VERB	_	_	10	compound	_	Translit=nbšth
 10	کُتگ	_	X	_	_	5	acl	_	SpaceAfter=No|Translit=kutg
 11	۔	_	PUNCT	_	_	10	punct	_	SpacesAfter=\r\n|Translit=.
 
 # sent_id = 13
 # text = تو چے چارگا ئے؟
 # text_en = What are you looking at?
-1	تو	_	PRON	_	_	3	mark	_	Translit=tū
-2	چے	_	DET	_	_	3	nsubj	_	Translit=če
+1	تو	_	PRON	_	_	3	nsubj	_	Translit=tū
+2	چے	_	DET	_	_	3	obj	_	Translit=če
 3	چارگا	_	VERB	_	_	0	root	_	Translit=čārgā
 4	ئے	_	X	_	_	3	aux	_	SpaceAfter=No|Translit=je
 5	؟	_	PUNCT	_	_	3	punct	_	SpacesAfter=\r\n|Translit=?
@@ -178,11 +178,11 @@
 # sent_id = 14
 # text = تئی ہیال ءَ تو کدی اتک کن ئے؟
 # text_en = When do you think you can come?
-1	تئی	_	PRON	_	_	2	amod	_	Translit=tjī
-2	ہیال	_	NOUN	_	_	3	nmod	_	Translit=hīāl
+1	تئی	_	PRON	_	_	2	nmod	_	Translit=tjī
+2	ہیال	_	NOUN	_	_	7	obj	_	Translit=hīāl
 3	ءَ	ءَ	ADP	_	Case=Erg	2	case	_	Translit='a
-4	تو	_	PRON	_	_	3	dep	_	Translit=tū
-5	کدی	_	ADV	_	_	7	nsubj	_	Translit=kdī
+4	تو	_	PRON	_	_	6	nsubj	_	Translit=tū
+5	کدی	_	ADV	_	_	6	advmod	_	Translit=kdī
 6	اتک	_	VERB	_	_	7	xcomp	_	Translit=ātk
 7	کن	_	X	_	_	0	root	_	Translit=kn
 8	ئے	_	PART	_	_	7	aux	_	SpaceAfter=No|Translit=je
@@ -191,109 +191,109 @@
 # sent_id = 15
 # text = آئی ءَ گاڑی یے زُرت بلے آئی برات ءَ بس یک پرپٹے۔
 # text_en = He bought a car but his brother just a bike.
-1	آئی	_	PRON	_	_	2	compound	_	Translit=Ājī
+1	آئی	_	PRON	_	_	5	nsubj	_	Translit=Ājī
 2	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
-3	گاڑی	_	NOUN	_	_	6	obl	_	Translit=gārī
+3	گاڑی	_	NOUN	_	_	5	obj	_	Translit=gārī
 4	یے	_	X	_	_	3	case	_	Translit=īe
-5	زُرت	_	VERB	_	_	6	compound	_	Translit=zurt
-6	بلے	_	CCONJ	_	_	8	case	_	Translit=ble
-7	آئی	_	PRON	_	_	8	compound	_	Translit=Ājī
-8	برات	_	NOUN	_	_	9	nmod	_	Translit=brāt
+5	زُرت	_	VERB	_	_	0	root	_	Translit=zurt
+6	بلے	_	CCONJ	_	_	8	cc	_	Translit=ble
+7	آئی	_	PRON	_	_	8	nmod	_	Translit=Ājī
+8	برات	_	NOUN	_	_	5	conj	_	Translit=brāt
 9	ءَ	ءَ	ADP	_	Case=Erg	8	case	_	Translit='a
-10	بس	_	ADV	_	_	12	compound	_	Translit=bs
-11	یک	_	ADV	_	_	12	nummod	_	Translit=īk
-12	پرپٹے	_	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=prpṭe
-13	۔	_	PUNCT	_	_	12	punct	_	SpacesAfter=\r\n|Translit=.
+10	بس	_	ADV	_	_	8	orphan	_	Translit=bs
+11	یک	_	ADV	_	_	8	orphan	_	Translit=īk
+12	پرپٹے	_	NOUN	_	_	8	orphan	_	SpaceAfter=No|Translit=prpṭe
+13	۔	_	PUNCT	_	_	5	punct	_	SpacesAfter=\r\n|Translit=.
 
 # sent_id = 16
 # text = پیٹر ءُ میری ءَ یکے دومی ءَ گلائیش کُت ءُ چہ کوٹی ءَ در اتک اَنت۔
 # text_en = Peter and Mary hugged each other and then left the room.
-1	پیٹر	_	PROPN	_	_	4	nmod	_	Translit=pīṭr
-2	ءُ	_	CCONJ	_	_	4	dep	_	Translit='u
-3	میری	_	PROPN	_	_	4	nmod	_	Translit=mīrī
-4	ءَ	ءَ	ADP	_	Case=Erg	3	case	_	Translit='a
+1	پیٹر	_	PROPN	_	_	8	nsubj	_	Translit=pīṭr
+2	ءُ	_	CCONJ	_	_	3	cc	_	Translit='u
+3	میری	_	PROPN	_	_	1	conj	_	Translit=mīrī
+4	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
 5	یکے	_	X	_	_	6	compound	_	Translit=īke
-6	دومی	_	X	_	_	16	nmod	_	Translit=dūmī
+6	دومی	_	X	_	_	8	obj	_	Translit=dūmī
 7	ءَ	ءَ	ADP	_	Case=Erg	6	case	_	Translit='a
-8	گلائیش	_	VERB	_	_	9	compound	_	Translit=glājīš
-9	کُت	_	VERB	_	_	13	nmod	_	Translit=kut
-10	ءُ	_	CCONJ	_	_	13	nmod	_	Translit='u
-11	چہ	_	ADP	_	_	13	compound	_	Translit=čh
-12	کوٹی	_	NOUN	_	_	13	nmod	_	Translit=kūṭī
+8	گلائیش	_	VERB	_	_	0	root	_	Translit=glājīš
+9	کُت	_	VERB	_	_	8	nmod	_	Translit=kut
+10	ءُ	_	CCONJ	_	_	15	cc	_	Translit='u
+11	چہ	_	ADP	_	_	12	case	_	Translit=čh
+12	کوٹی	_	NOUN	_	_	15	obl	_	Translit=kūṭī
 13	ءَ	ءَ	ADP	_	Case=Erg	12	case	_	Translit='a
-14	در	_	ADV	_	_	16	compound	_	Translit=dr
-15	اتک	_	VERB	_	_	16	compound	_	Translit=ātk
-16	اَنت	_	X	_	_	0	root	_	SpaceAfter=No|Translit=āant
-17	۔	_	PUNCT	_	_	16	punct	_	SpacesAfter=\r\n|Translit=.
+14	در	_	ADV	_	_	15	compound	_	Translit=dr
+15	اتک	_	VERB	_	_	8	conj	_	Translit=ātk
+16	اَنت	_	X	_	_	15	aux	_	SpaceAfter=No|Translit=āant
+17	۔	_	PUNCT	_	_	8	punct	_	SpacesAfter=\r\n|Translit=.
 
 # sent_id = 17
 # text = آ بائدیں وتی سر ءِ رندگ ءَ بوتیں بلے لہتے سوب ءَ آ روچی نہ رست ئِے۔
 # text_en = She should have been doing her hair but for some reason she wouldn't that day.
-1	آ	_	PRON	_	_	2	nmod	_	Translit=Ā
-2	بائدیں	_	X	_	_	9	nsubj	_	Translit=bājdīñ
-3	وتی	_	PRON	_	_	4	compound	_	Translit=ūtī
-4	سر	_	NOUN	_	_	6	nmod	_	Translit=sr
-5	ءِ	_	X	_	_	6	nmod	_	Translit='i
-6	رندگ	_	VERB	_	_	2	conj	_	Translit=rndg
+1	آ	_	PRON	_	_	6	nsubj	_	Translit=Ā
+2	بائدیں	_	X	_	_	6	dep	_	Translit=bājdīñ
+3	وتی	_	PRON	_	_	4	nmod	_	Translit=ūtī
+4	سر	_	NOUN	_	_	6	obl	_	Translit=sr
+5	ءِ	_	X	_	_	4	case	_	Translit='i
+6	رندگ	_	VERB	_	_	8	xcomp	_	Translit=rndg
 7	ءَ	ءَ	ADP	_	Case=Erg	6	case	_	Translit='a
-8	بوتیں	_	VERB	_	_	9	obj	_	Translit=būtīñ
-9	بلے	_	CCONJ	_	_	0	root	_	Translit=ble
-10	لہتے	_	DET	_	_	9	aux	_	Translit=lhte
+8	بوتیں	_	VERB	_	_	0	root	_	Translit=būtīñ
+9	بلے	_	CCONJ	_	_	16	cc	_	Translit=ble
+10	لہتے	_	DET	_	_	11	det	_	Translit=lhte
 11	سوب	_	NOUN	_	_	16	obl	_	Translit=sūb
 12	ءَ	ءَ	ADP	_	Case=Erg	11	case	_	Translit='a
-13	آ	_	DET	_	_	14	compound	_	Translit=āٓ
-14	روچی	_	NOUN	_	_	16	obj	_	Translit=rūčī
+13	آ	_	DET	_	_	14	det	_	Translit=āٓ
+14	روچی	_	NOUN	_	_	16	obl	_	Translit=rūčī
 15	نہ	_	ADV	_	_	16	advmod	_	Translit=nh
-16	رست	_	VERB	_	_	9	advcl	_	Translit=rst
+16	رست	_	VERB	_	_	8	conj	_	Translit=rst
 17	ئِے	_	PART	_	_	16	aux	_	SpaceAfter=No|Translit=jie
-18	۔	_	PUNCT	_	_	16	punct	_	SpacesAfter=\r\n|Translit=.
+18	۔	_	PUNCT	_	_	8	punct	_	SpacesAfter=\r\n|Translit=.
 
 # sent_id = 18
 # text = من آئی ءَ را رسینت نہ کُت، پرچا کہ آ سک تینز تتک۔
 # text_en = I wasn't able to keep up, because he ran too fast.
-1	من	_	PRON	_	_	2	compound	_	Translit=mn
-2	آئی	_	PRON	_	_	3	nmod	_	Translit=Ājī
+1	من	_	PRON	_	_	5	nsubj	_	Translit=mn
+2	آئی	_	PRON	_	_	5	obl	_	Translit=Ājī
 3	ءَ	ءَ	ADP	_	Case=Erg	2	case	_	Translit='a
-4	را	_	ADP	_	_	5	compound	_	Translit=rā
+4	را	_	ADP	_	_	2	case	_	Translit=rā
 5	رسینت	_	VERB	_	_	7	nmod	_	Translit=rsīnt
 6	نہ	_	ADV	_	_	7	advmod	_	Translit=nh
-7	کُت	_	VERB	_	_	9	obj	_	SpaceAfter=No|Translit=kut
+7	کُت	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=kut
 8	،	_	PUNCT	_	_	7	punct	_	Translit=,
-9	پرچا	_	CCONJ	_	_	0	root	_	Translit=prčā
-10	کہ	_	CCONJ	_	_	13	mark	_	Translit=kh
-11	آ	_	PRON	_	_	13	nmod	_	Translit=Ā
-12	سک	_	ADV	_	_	11	dep	_	Translit=sk
-13	تینز	_	ADV	_	_	9	obj	_	Translit=tīnz
-14	تتک	_	VERB	_	_	13	amod	_	SpaceAfter=No|Translit=ttk
-15	۔	_	PUNCT	_	_	13	punct	_	SpacesAfter=\r\n|Translit=.
+9	پرچا	_	SCONJ	_	_	14	mark	_	Translit=prčā
+10	کہ	_	CCONJ	_	_	14	mark	_	Translit=kh
+11	آ	_	PRON	_	_	14	nsubj	_	Translit=Ā
+12	سک	_	ADV	_	_	13	advmod	_	Translit=sk
+13	تینز	_	ADV	_	_	14	advmod	_	Translit=tīnz
+14	تتک	_	VERB	_	_	7	advcl	_	SpaceAfter=No|Translit=ttk
+15	۔	_	PUNCT	_	_	7	punct	_	SpacesAfter=\r\n|Translit=.
 
 # sent_id = 19
 # text = اے نمدی چہ پیٹر ءِ نیمگا اِنت ءُ اے زِی سر بوتگ۔
 # text_en = This letter is from Peter and it was delivered yesterday.
-1	اے	_	PRON	_	_	2	punct	_	Translit=āe
-2	نمدی	_	NOUN	_	_	4	amod	_	Translit=nmdī
-3	چہ	_	ADP	_	_	4	compound	_	Translit=čh
-4	پیٹر	_	PROPN	_	_	5	nmod	_	Translit=pīṭr
-5	ءِ	_	X	_	_	0	root	_	Translit='i
-6	نیمگا	_	NOUN	_	_	12	compound	_	Translit=nīmgā
-7	اِنت	_	X	_	_	12	compound	_	Translit=āint
-8	ءُ	_	CCONJ	_	_	12	compound	_	Translit='u
-9	اے	_	PRON	_	_	12	compound	_	Translit=āe
-10	زِی	_	ADV	_	_	12	compound	_	Translit=ziī
+1	اے	_	PRON	_	_	2	nmod	_	Translit=āe
+2	نمدی	_	NOUN	_	_	4	nsubj	_	Translit=nmdī
+3	چہ	_	ADP	_	_	4	case	_	Translit=čh
+4	پیٹر	_	PROPN	_	_	0	root	_	Translit=pīṭr
+5	ءِ	_	X	_	_	4	case	_	Translit='i
+6	نیمگا	_	NOUN	_	_	4	compound	_	Translit=nīmgā
+7	اِنت	_	X	_	_	4	compound	_	Translit=āint
+8	ءُ	_	CCONJ	_	_	12	cc	_	Translit='u
+9	اے	_	PRON	_	_	12	nsubj	_	Translit=āe
+10	زِی	_	ADV	_	_	12	advmod	_	Translit=ziī
 11	سر	_	VERB	_	_	12	compound	_	Translit=sr
-12	بوتگ	_	VERB	_	_	5	nmod	_	SpaceAfter=No|Translit=būtg
-13	۔	_	PUNCT	_	_	12	punct	_	SpacesAfter=\r\n|Translit=.
+12	بوتگ	_	VERB	_	_	4	conj	_	SpaceAfter=No|Translit=būtg
+13	۔	_	PUNCT	_	_	4	punct	_	SpacesAfter=\r\n|Translit=.
 
 # sent_id = 20
 # text = آ فرانس ءِ بُندر، پیرس ءَ رُستگ۔
 # text_en = She grew up in Paris, the capital of France.
-1	آ	_	PRON	_	_	2	compound	_	Translit=Ā
+1	آ	_	PRON	_	_	8	nsubj	_	Translit=Ā
 2	فرانس	_	PROPN	_	_	4	nmod	_	Translit=frāns
-3	ءِ	_	X	_	_	4	compound	_	Translit='i
-4	بُندر	_	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=bundr
-5	،	_	PUNCT	_	_	8	punct	_	Translit=,
-6	پیرس	_	PROPN	_	_	7	compound	_	Translit=pīrs
-7	ءَ	ءَ	ADP	_	Case=Erg	6	case	_	Translit='a
-8	رُستگ	_	VERB	_	_	4	conj	_	SpaceAfter=No|Translit=rustg
+3	ءِ	_	X	_	_	2	case	_	Translit='i
+4	بُندر	_	NOUN	_	_	8	obl	_	SpaceAfter=No|Translit=bundr
+5	،	_	PUNCT	_	_	6	punct	_	Translit=,
+6	پیرس	_	PROPN	_	_	4	appos	_	Translit=pīrs
+7	ءَ	ءَ	ADP	_	Case=Erg	4	case	_	Translit='a
+8	رُستگ	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=rustg
 9	۔	_	PUNCT	_	_	8	punct	_	SpacesAfter=\r\n|Translit=.
 
