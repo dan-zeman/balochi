@@ -4,10 +4,10 @@
 # text = جنک ءَ وتی دزگوہار ءَ را نمدی یے نبشتہ کت۔
 # text_en = The girl wrote a letter to her friend.
 1	جنک	_	NOUN	_	_	4	nmod	_	Gloss=girl|Translit=jnk
-2	ءَ	ءَ	ADP	_	Case=Erg	1	dep	_	Translit='a
+2	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
 3	وتی	_	PRON	_	_	4	compound	_	Translit=ūtī
 4	دزگوہار	_	NOUN	_	_	7	nmod	_	Gloss=friend|Translit=dzgūhār
-5	ءَ	ءَ	ADP	_	Case=Erg	7	compound	_	Translit='a
+5	ءَ	ءَ	ADP	_	Case=Erg	4	case	_	Translit='a
 6	را	_	ADP	_	_	7	compound	_	Translit=rā
 7	نمدی	_	NOUN	_	_	10	obl	_	Gloss=letter|Translit=nmdī
 8	یے	_	X	_	_	7	case	_	Translit=īe
@@ -20,7 +20,7 @@
 # text_en = I think that it is raining.
 1	منی	_	PRON	_	_	2	compound	_	Translit=mnī
 2	دل	_	NOUN	_	_	6	compound	_	Translit=dl
-3	ءَ	ءَ	ADP	_	Case=Erg	6	compound	_	Translit='a
+3	ءَ	ءَ	ADP	_	Case=Erg	2	case	_	Translit='a
 4	ہئور	_	NOUN	_	_	6	compound	_	Translit=hjūr
 5	بئیگا	_	VERB	_	_	6	compound	_	Translit=bjīgā
 6	اِنت	_	X	_	_	0	root	_	SpaceAfter=No|Translit=āint
@@ -30,7 +30,7 @@
 # text = آئی ءَ کشّگ ءُ نوشگ ءِ یلہ دئیگ ءِ جُہد کُت۔
 # text_en = He tried to stop smoking and drinking.
 1	آئی	_	PRON	_	_	2	compound	_	Translit=āٓjī
-2	ءَ	ءَ	ADP	_	Case=Erg	3	nmod	_	Translit='a
+2	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
 3	کشّگ	_	NOUN	_	_	5	nmod	_	Translit=kš:g
 4	ءُ	_	CCONJ	_	_	5	compound	_	Translit='u
 5	نوشگ	_	NOUN	_	_	11	nmod	_	Translit=nūšg
@@ -57,7 +57,7 @@
 1	سیم	_	PROPN	_	_	6	nsubj	_	SpaceAfter=No|Translit=sīm
 2	،	_	PUNCT	_	_	1	punct	_	Translit=,
 3	دریگ	_	NOUN	_	_	4	nmod	_	Translit=drīg
-4	ءَ	ءَ	ADP	_	Case=Erg	6	nmod	_	Translit='a
+4	ءَ	ءَ	ADP	_	Case=Erg	3	case	_	Translit='a
 5	پچ	_	VERB	_	_	6	compound	_	Translit=pč
 6	کن	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=kn
 7	!	_	PUNCT	_	_	6	punct	_	SpacesAfter=\r\n|Translit=!
@@ -66,10 +66,10 @@
 # text = آئی ءَ وتی مرد ءَ را گاڑی ءِ شودگ پرمات۔
 # text_en = She made her husband wash the car.
 1	آئی	_	PRON	_	_	2	compound	_	Translit=Ājī
-2	ءَ	ءَ	ADP	_	Case=Erg	4	nmod	_	Translit='a
+2	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
 3	وتی	_	PRON	_	_	4	compound	_	Translit=ūtī
 4	مرد	_	NOUN	_	_	5	nmod	_	Translit=mrd
-5	ءَ	ءَ	ADP	_	Case=Erg	9	nmod	_	Translit='a
+5	ءَ	ءَ	ADP	_	Case=Erg	4	case	_	Translit='a
 6	را	_	ADP	_	_	7	compound	_	Translit=rā
 7	گاڑی	_	NOUN	_	_	9	nmod	_	Translit=gārī
 8	ءِ	_	X	_	_	9	compound	_	Translit='i
@@ -83,9 +83,9 @@
 1	پیٹر	_	PROPN	_	_	2	compound	_	Translit=pīṭr
 2	ءِ	_	X	_	_	3	nmod	_	Translit='i
 3	ہمساہگ	_	NOUN	_	_	9	nmod	_	Translit=hmsāhg
-4	ءَ	ءَ	ADP	_	Case=Erg	3	nmod	_	Translit='a
+4	ءَ	ءَ	ADP	_	Case=Erg	3	case	_	Translit='a
 5	پل	_	NOUN	_	_	7	nmod	_	Translit=pl
-6	ءَ	ءَ	ADP	_	Case=Erg	7	nmod	_	Translit='a
+6	ءَ	ءَ	ADP	_	Case=Erg	5	case	_	Translit='a
 7	را	_	ADP	_	_	3	conj	_	Translit=rā
 8	سُہریں	_	ADJ	_	_	9	amod	_	Translit=suhrīñ
 9	رنگ	_	NOUN	_	_	10	nmod	_	Translit=rng
@@ -99,7 +99,7 @@
 2	پت	_	NOUN	_	_	7	compound	_	Translit=pt
 3	چہ	_	ADP	_	_	7	compound	_	Translit=čh
 4	تئیگ	_	PRON	_	_	7	compound	_	Translit=tjīg
-5	ءَ	ءَ	ADP	_	Case=Erg	7	compound	_	Translit='a
+5	ءَ	ءَ	ADP	_	Case=Erg	4	case	_	Translit='a
 6	شرتِر	_	ADJ	_	_	7	compound	_	Translit=šrtir
 7	اِنت	_	VERB	_	_	0	root	_	SpaceAfter=No|Translit=āint
 8	۔	_	PUNCT	_	_	7	punct	_	SpacesAfter=\r\n|Translit=.
@@ -108,17 +108,17 @@
 # text = میری ءَ برونزے یے، پیٹر ءَ نُگرہ ءِ ءُ جین ءَ تلاہ ءِ میڈلے کٹ اِت۔
 # text_en = Mary won bronze, Peter silver, and Jane gold.
 1	میری	_	PROPN	_	_	2	nmod	_	Translit=mīrī
-2	ءَ	ءَ	ADP	_	Case=Erg	3	nmod	_	Translit='a
+2	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
 3	برونزے	_	PROPN	_	_	0	root	_	Translit=brūnze
 4	یے	_	X	_	_	3	case	_	SpaceAfter=No|Translit=īe
 5	،	_	PUNCT	_	_	3	punct	_	Translit=,
 6	پیٹر	_	PROPN	_	_	8	nmod	_	Translit=pīṭr
-7	ءَ	ءَ	ADP	_	Case=Erg	8	compound	_	Translit='a
+7	ءَ	ءَ	ADP	_	Case=Erg	6	case	_	Translit='a
 8	نُگرہ	_	PROPN	_	_	3	conj	_	Translit=nugrh
 9	ءِ	_	X	_	_	8	nmod	_	Translit='i
 10	ءُ	_	CCONJ	_	_	12	nmod	_	Translit='u
 11	جین	_	PROPN	_	_	12	nmod	_	Translit=jīn
-12	ءَ	ءَ	ADP	_	Case=Erg	14	nmod	_	Translit='a
+12	ءَ	ءَ	ADP	_	Case=Erg	11	case	_	Translit='a
 13	تلاہ	_	PROPN	_	_	15	compound	_	Translit=tlāh
 14	ءِ	_	X	_	_	15	nmod	_	Translit='i
 15	میڈلے	_	NOUN	_	_	16	nmod	_	Translit=mīḍle
@@ -180,7 +180,7 @@
 # text_en = When do you think you can come?
 1	تئی	_	PRON	_	_	2	amod	_	Translit=tjī
 2	ہیال	_	NOUN	_	_	3	nmod	_	Translit=hīāl
-3	ءَ	ءَ	ADP	_	Case=Erg	7	nsubj	_	Translit='a
+3	ءَ	ءَ	ADP	_	Case=Erg	2	case	_	Translit='a
 4	تو	_	PRON	_	_	3	dep	_	Translit=tū
 5	کدی	_	ADV	_	_	7	nsubj	_	Translit=kdī
 6	اتک	_	VERB	_	_	7	xcomp	_	Translit=ātk
@@ -192,14 +192,14 @@
 # text = آئی ءَ گاڑی یے زُرت بلے آئی برات ءَ بس یک پرپٹے۔
 # text_en = He bought a car but his brother just a bike.
 1	آئی	_	PRON	_	_	2	compound	_	Translit=Ājī
-2	ءَ	ءَ	ADP	_	Case=Erg	3	nmod	_	Translit='a
+2	ءَ	ءَ	ADP	_	Case=Erg	1	case	_	Translit='a
 3	گاڑی	_	NOUN	_	_	6	obl	_	Translit=gārī
 4	یے	_	X	_	_	3	case	_	Translit=īe
 5	زُرت	_	VERB	_	_	6	compound	_	Translit=zurt
 6	بلے	_	CCONJ	_	_	8	case	_	Translit=ble
 7	آئی	_	PRON	_	_	8	compound	_	Translit=Ājī
 8	برات	_	NOUN	_	_	9	nmod	_	Translit=brāt
-9	ءَ	ءَ	ADP	_	Case=Erg	12	nmod	_	Translit='a
+9	ءَ	ءَ	ADP	_	Case=Erg	8	case	_	Translit='a
 10	بس	_	ADV	_	_	12	compound	_	Translit=bs
 11	یک	_	ADV	_	_	12	nummod	_	Translit=īk
 12	پرپٹے	_	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=prpṭe
@@ -211,16 +211,16 @@
 1	پیٹر	_	PROPN	_	_	4	nmod	_	Translit=pīṭr
 2	ءُ	_	CCONJ	_	_	4	dep	_	Translit='u
 3	میری	_	PROPN	_	_	4	nmod	_	Translit=mīrī
-4	ءَ	ءَ	ADP	_	Case=Erg	6	nmod	_	Translit='a
+4	ءَ	ءَ	ADP	_	Case=Erg	3	case	_	Translit='a
 5	یکے	_	X	_	_	6	compound	_	Translit=īke
 6	دومی	_	X	_	_	16	nmod	_	Translit=dūmī
-7	ءَ	ءَ	ADP	_	Case=Erg	9	nmod	_	Translit='a
+7	ءَ	ءَ	ADP	_	Case=Erg	6	case	_	Translit='a
 8	گلائیش	_	VERB	_	_	9	compound	_	Translit=glājīš
 9	کُت	_	VERB	_	_	13	nmod	_	Translit=kut
 10	ءُ	_	CCONJ	_	_	13	nmod	_	Translit='u
 11	چہ	_	ADP	_	_	13	compound	_	Translit=čh
 12	کوٹی	_	NOUN	_	_	13	nmod	_	Translit=kūṭī
-13	ءَ	ءَ	ADP	_	Case=Erg	16	nmod	_	Translit='a
+13	ءَ	ءَ	ADP	_	Case=Erg	12	case	_	Translit='a
 14	در	_	ADV	_	_	16	compound	_	Translit=dr
 15	اتک	_	VERB	_	_	16	compound	_	Translit=ātk
 16	اَنت	_	X	_	_	0	root	_	SpaceAfter=No|Translit=āant
@@ -235,12 +235,12 @@
 4	سر	_	NOUN	_	_	6	nmod	_	Translit=sr
 5	ءِ	_	X	_	_	6	nmod	_	Translit='i
 6	رندگ	_	VERB	_	_	2	conj	_	Translit=rndg
-7	ءَ	ءَ	ADP	_	Case=Erg	6	dep	_	Translit='a
+7	ءَ	ءَ	ADP	_	Case=Erg	6	case	_	Translit='a
 8	بوتیں	_	VERB	_	_	9	obj	_	Translit=būtīñ
 9	بلے	_	CCONJ	_	_	0	root	_	Translit=ble
 10	لہتے	_	DET	_	_	9	aux	_	Translit=lhte
 11	سوب	_	NOUN	_	_	16	obl	_	Translit=sūb
-12	ءَ	ءَ	ADP	_	Case=Erg	11	dep	_	Translit='a
+12	ءَ	ءَ	ADP	_	Case=Erg	11	case	_	Translit='a
 13	آ	_	DET	_	_	14	compound	_	Translit=āٓ
 14	روچی	_	NOUN	_	_	16	obj	_	Translit=rūčī
 15	نہ	_	ADV	_	_	16	advmod	_	Translit=nh
@@ -253,7 +253,7 @@
 # text_en = I wasn't able to keep up, because he ran too fast.
 1	من	_	PRON	_	_	2	compound	_	Translit=mn
 2	آئی	_	PRON	_	_	3	nmod	_	Translit=Ājī
-3	ءَ	ءَ	ADP	_	Case=Erg	5	nmod	_	Translit='a
+3	ءَ	ءَ	ADP	_	Case=Erg	2	case	_	Translit='a
 4	را	_	ADP	_	_	5	compound	_	Translit=rā
 5	رسینت	_	VERB	_	_	7	nmod	_	Translit=rsīnt
 6	نہ	_	ADV	_	_	7	advmod	_	Translit=nh
@@ -293,7 +293,7 @@
 4	بُندر	_	NOUN	_	_	0	root	_	SpaceAfter=No|Translit=bundr
 5	،	_	PUNCT	_	_	8	punct	_	Translit=,
 6	پیرس	_	PROPN	_	_	7	compound	_	Translit=pīrs
-7	ءَ	ءَ	ADP	_	Case=Erg	8	nmod	_	Translit='a
+7	ءَ	ءَ	ADP	_	Case=Erg	6	case	_	Translit='a
 8	رُستگ	_	VERB	_	_	4	conj	_	SpaceAfter=No|Translit=rustg
 9	۔	_	PUNCT	_	_	8	punct	_	SpacesAfter=\r\n|Translit=.
 
